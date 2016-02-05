@@ -20,8 +20,9 @@ The afterEach function had the intention of reseting the game, so that the turns
 ### Running the tests
 
 The tests were built using Jasmine + Karma, and can be executed directly from the console.
+
 * Install NodeJS according to your operating system
 * Check if node is in your System's path
-* Navigate to tic_tac_toe_master directory using your cmd window or terminal and enter the command `[...]/node_modules/karma/bin/karma start` to start your karma server
-* In another window navigate to the same directory an enter the command `[...]/node_modules/karma/bin/karma run`
+* Navigate to "tic_tac_toe_master" directory using your cmd window or terminal and enter the command `/node_modules/karma/bin/karma start` (or `./node_modules/karma/bin/karma start` if you're using Linux/OSX) to start your karma server
+* In another window navigate to the same directory and enter the command `./node_modules/karma/bin/karma run` (or `/node_modules/karma/bin/karma run` if you're using Linux/OSX)
 * Be sure to have Firefox AND Chrome installed in order to succeed in the 12 tests.
