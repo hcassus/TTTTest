@@ -16,3 +16,5 @@ Since I'm not fluent in JS Unit testing, there may be some suboptimal implementa
 The beforeEach function injects a simplified version of the grid used by the game. The original intention was to use the actual game page, but the lack of knowledge in the tools I have used led me to adopt this strategy. By stubbing the HTML I was able to unit test methods that interacted with the page.
 
 The afterEach function had the intention of reseting the game, so that the turns woulf be respected and the asserts wouldn't be messed up.
+
+The tests were built using Jasmine + Karma, and can be executed from the console by typing `[...]/node_modules/karma/bin/karma run`.
