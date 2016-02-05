@@ -11,7 +11,7 @@ A terrific tic tac toe test
 * cellClicked has been divided in two parts to improve readability and variable reuse
 
 ## Testing 
-Since I'm not fluent in JS Unit testing, there may be some suboptimal implementations.
+Since I'm not fluent in JS, there may be some suboptimal implementations.
 
 The beforeEach function injects a simplified version of the grid used by the game. The original intention was to use the actual game page, but the lack of knowledge in the tools I have used led me to adopt this strategy. By stubbing the HTML I was able to unit test methods that interacted with the DOM.
 
@@ -23,6 +23,6 @@ The tests were built using Jasmine + Karma, and can be executed directly from th
 
 * Install NodeJS according to your operating system
 * Check if node is in your System's path
-* Navigate to "tic_tac_toe_master" directory using your cmd window or terminal and enter the command `/node_modules/karma/bin/karma start` (or `./node_modules/karma/bin/karma start` if you're using Linux/OSX) to start your karma server
-* In another window navigate to the same directory and enter the command `/node_modules/karma/bin/karma run` (or `./node_modules/karma/bin/karma run` if you're using Linux/OSX)
+* Navigate to "tic_tac_toe_master" directory using your cmd window or terminal and enter the command `karma start` (or `./node_modules/karma/bin/karma start` if you're using Linux/OSX) to start your karma server
+* In another window navigate to the same directory and enter the command `karma run` (or `./node_modules/karma/bin/karma run` if you're using Linux/OSX)
 * Be sure to have Firefox AND Chrome installed in order to succeed in the 12 tests.
